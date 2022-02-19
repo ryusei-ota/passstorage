@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">PASS STORAGE</string>
+    <!-- genre -->
+    <string-array name="list_genre">
+        <item>選択なし</item>
+        <item>SNS</item>
+        <item>銀行口座</item>
+        <item>メールアドレス</item>
+        <item>ゲームID</item>
+        <item>Webアカウント</item>
+        <item>秘密</item>
+        <item>その他</item>
+    </string-array>
+    <!-- TOP -->
+    <string name="top_unique">name</string>
+    <string name="top_pass">Password</string>
+    <string name="top_check">次回から自動ログインする</string>
+    <string name="top_login">Login</string>
+    <string name="top_signup">新規登録</string>
+    <!-- list -->
+    <string name="list_back">戻る</string>
+    <string name="list_all">一覧</string>
+    <string name="list_add">新規登録</string>
+    <string name="list_search">検索</string>
+    <!-- add -->
+    <string name="add_back">戻る</string>
+    <string name="add_edit">内容編集</string>
+    <string name="add_insert">内容登録</string>
+    <string name="add_btn_save">更新</string>
+    <string name="add_btn_insert">登録</string>
+    <string name="add_title">タイトル</string>
+    <string name="add_name">アカウント名 / メールアドレス / その他</string>
+    <string name="add_auto">パスワード自動設定　※25桁迄</string>
+    <string name="add_keta">桁</string>
+    <string name="add_on">実行</string>
+    <string name="add_ok">確定</string>
+    <string name="add_link">リンク</string>
+    <string name="add_pass">パスワード</string>
+    <string name="add_genre">ジャンル</string>
+    <string name="add_memo">メモ</string>
+    <string name="msg_num_err">25桁以上です</string>
+    <string name="add_pass_keta_hint">実行後、パスワードに表示されます</string>
+    <string name="add_link_hint">登録後、上部にリンクボタンが表示されます</string>
+    <!-- menu -->
+    <string name="del_delete">削除</string>
+    <string name="link">リンク先</string>
+    <!-- user新規登録 -->
+    <string name="user_new">アカウントを作成</string>
+    <string name="user_back">戻る</string>
+    <string name="user_add">登録</string>
+    <string name="user_mail">メールアドレス</string>
+    <string name="user_pass">パスワード</string>
+
+    <!-- トースト -->
+    <string name="msg_input_title">パスワードが間違っています</string>
+    <string name="msg_err_title">メールアドレスとパスワードが入力されてません</string>
+    <string name="msg_pass_title">パスワードが入力されていません</string>
+    <string name="msg_mail_title">メールアドレスが入力されてません</string>
+    <string name="msg_input_pass_err_flg">数字を入力してください</string>
+    <string name="msg_input_msg">登録名が入力されていません</string>
+
+    <!-- 選択肢 -->
+    <string name="special_character">特殊文字</string>
+    <string name="number">数字</string>
+    <string name="upper_case">大文字</string>
+
+    <!-- ダイアログ -->
+    <string name="dlg_msg">以下の内容を登録します</string>
+    <string name="dlg_ng">いいえ</string>
+    <string name="dlg_ok">はい</string>
+
+    <!-- newUser -->
+    <string name="new_user_caution">注意</string>
+    <string name="new_pass_msg">パスワードを入力してください</string>
+    <string name="new_user_msg">パスワードを忘れ、再登録された場合、\n内部データは破棄されます。</string>
+
+</resources>

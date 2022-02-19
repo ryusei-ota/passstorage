@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ST31 Androidサンプル13 オプションメニュー
+res/menu/menu_options_activity_main.xmlファイル
+-->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/textDel"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/del_delete"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/textLink"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/link"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/textInsert"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/add_btn_insert"
+        app:showAsAction="always|withText"/>
+</menu>
